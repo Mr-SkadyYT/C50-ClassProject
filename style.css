@@ -1,0 +1,33 @@
+*{
+    border : dashed red;
+}
+
+.header{
+    border: solid green;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+h1{
+    background-color : blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : whitesmoke;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color:blueviolet;
+}
+p{
+    background-color: cyan;
+    font-size: 20px;
+    font-weight: lighter;
+    font: outline;
+    text-align: center;
+    font-family: fantasy;
+}
